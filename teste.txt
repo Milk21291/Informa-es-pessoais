@@ -1,0 +1,10 @@
+--> HTML
+<div id="result">
+<h2 id="letraConvertida"></h2>
+
+--> JavaScript
+let conectar = document.getElementById("result")
+let result = conectar.value
+let letraConvertida = document.getElementById("letraConvertida")
+let resultText = result
+letraConvertida.innerHTML = (`${firstName} ${lastName} tem ${age} anos, pesa ${Weight} kg tem ${heightInMeters} de altura, seu IMC é de ${imc} e ${firstName} ${lastName} nasceu em ${birthyear}`)
