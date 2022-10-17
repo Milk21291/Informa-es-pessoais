@@ -8,4 +8,6 @@ let dataAtual = new Date();
 let ano = dataAtual.getFullYear();
 let birthyear = ano - age
 
+document.body.innerHTML += `${firstName} ${lastName} tem ${age} anos, pesa ${Weight} kg tem ${heightInMeters} de altura, seu IMC é de ${imc} e ${firstName} ${lastName} nasceu em ${birthyear}`
+
 console.log(`${firstName} ${lastName} tem ${age} anos, pesa ${Weight} kg tem ${heightInMeters} de altura, seu IMC é de ${imc} e ${firstName} ${lastName} nasceu em ${birthyear}`)
